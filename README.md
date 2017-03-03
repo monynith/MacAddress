@@ -15,7 +15,11 @@ cordova plugin add https://github.com/monynith/MacAddress.git
 
 ```js
 window.MacAddress.getMacAddress(
-function(macAddress) {alert(macAddress);},function(fail) {alert(fail);}
+  function(macAddress) {
+    alert(macAddress);
+  }, function(fail) {
+    alert(fail);
+  }
 );
 ```
 
