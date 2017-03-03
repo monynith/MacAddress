@@ -5,7 +5,7 @@ This Plugin is inspired from MacAddress plugins
 and [here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin),Using this plugins 
 device MacAddress could be retrieved for Android/iOS devices.
 
-It has been successfully tested on Cordova version 3.1.0.
+Added iOS 10.2 functionality by: https://github.com/mavris/MMLanScan
 
 ## Installation 
 
