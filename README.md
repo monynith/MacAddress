@@ -6,6 +6,7 @@ and [here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/M
 device MacAddress could be retrieved for Android/iOS devices.
 
 Added iOS 10.2 functionality by: https://github.com/mavris/MMLanScan
+For iOS: only support for: cordova-ios 4.3.0 and cordova-cli 6.4.0
 
 ## Installation 
 
