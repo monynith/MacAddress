@@ -9,15 +9,7 @@ It has been successfully tested on Cordova version 3.1.0.
 
 ## Installation 
 
-for Cordova >= 3.0.0
-
-phonegap local plugin add https://github.com/mohamed-salah/MacAddress.git
-
-cordova plugin add https://github.com/mohamed-salah/MacAddress.git
-
-for Cordova >= 5.0.0
-
-cordova plugin add com-badrit-macaddress
+cordova plugin add https://github.com/monynith/MacAddress.git
 
 **Example Usage:**
 
