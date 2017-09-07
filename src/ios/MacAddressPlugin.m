@@ -69,8 +69,4 @@
     
 }
 
-- (void)lanScanDidFindNewDevice:(Device*)device{
-    NSLog(@"MacAddressPlugin - lanScanDidFindNewDevice");
-}
-
 @end
