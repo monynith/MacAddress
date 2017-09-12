@@ -36,7 +36,7 @@
 
 - (void)lanScanDidFailedToScan {
     NSLog(@"MacAddressPlugin - Failed");
-    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Failed to get MacAddress"];
+    CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Failed to get MacAddress"];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:self.callbackID ];
 }
 
