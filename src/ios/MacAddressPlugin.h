@@ -12,5 +12,6 @@
 @property(strong) NSString* callbackID;
 
 - (void)getMacAddress:(CDVInvokedUrlCommand*)command;
+- (void)getWifiIP:(CDVInvokedUrlCommand*)command;
 
 @end
