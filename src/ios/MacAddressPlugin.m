@@ -27,6 +27,13 @@
     [self.lanScanner start];
 }
 
+- (void)getWifiIP:(CDVInvokedUrlCommand*)command {
+    self.callbackID = command.callbackId;
+//    NSLog(@"MacAddressPlugin - IPAddress: %@", [self getIPAddress]);
+    CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:[self getIPAddress]];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:self.callbackID ];
+}
+
 - (void)lanScanDidFinishScanningWithStatus:(MMLanScannerStatus)status {
     NSString *mac = [MacFinder ip2mac:[self getIPAddress]];
     NSLog(@"MacAddressPlugin - Mac: %@", mac);
