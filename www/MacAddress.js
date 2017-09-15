@@ -12,7 +12,7 @@
  	getMacAddress: function(successCallback, failureCallback){
  		cordova.exec(successCallback, failureCallback, 'MacAddressPlugin',
  			'getMacAddress', []);
- 	}
+ 	},
   getWifiIP: function(successCallback, failureCallback){
  		cordova.exec(successCallback, failureCallback, 'MacAddressPlugin',
  			'getWifiIP', []);
