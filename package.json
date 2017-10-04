@@ -5,8 +5,7 @@
   "cordova": {
     "id": "com-badrit-macaddress",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
@@ -17,8 +16,7 @@
     "cordova",
     "macaddress",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "license": "MIT"
 }
