@@ -28,13 +28,15 @@
     <source-file src="src/android/MacAddressPlugin.java" target-dir="src/com/badrit/MacAddress/" />
   </platform>
   
+  <!-- ios -->
   <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="MacAddressPlugin">
-                <param name="ios-package" value="MacAddressPlugin" />
-                <param name="onload" value="true" />
-            </feature>
-        </config-file>
-    </platform>
+   <config-file target="config.xml" parent="/*">
+     <feature name="MacAddressPlugin">
+       <param name="ios-package" value="MacAddressPlugin" />
+     </feature>
+   </config-file>
 
-</plugin>
+   <header-file src="src/ios/MacAddressPlugin.h" />
+   <source-file src="src/ios/MacAddressPlugin.m" />
+   <framework src="MMLanScan" type="podspec" spec=":git => 'https://github.com/mavris/MMLanScan'" />
+ </platform>
