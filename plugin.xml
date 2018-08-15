@@ -40,3 +40,4 @@
    <source-file src="src/ios/MacAddressPlugin.m" />
    <framework src="MMLanScan" type="podspec" spec=":git => 'https://github.com/mavris/MMLanScan'" />
  </platform>
+</plugin>
