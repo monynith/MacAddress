@@ -5,7 +5,8 @@
   "cordova": {
     "id": "com-badrit-macaddress",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "repository": {
